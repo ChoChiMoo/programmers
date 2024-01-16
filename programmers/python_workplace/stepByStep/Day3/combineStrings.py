@@ -6,3 +6,4 @@ def solution(str1, str2):
 
 #answer
 #test
+#userM merge.1
