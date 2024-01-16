@@ -1,0 +1,18 @@
+python 코드
+
+a, b = map(int, input().strip().split(' '))
+print(a + b)
+
+
+a, b = input().strip().split(' ')
+b = int(b)
+
+lower, upper, capitalize, title, swapcase
+
+
+str = input()
+strings = list(str)
+
+str2 = '\n'.join(strings)
+print(str2)
+
