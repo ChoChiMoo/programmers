@@ -1,5 +1,5 @@
 def solution(my_string, overwrite_string, s):
-    answer = str(my_string[0:s] + overwrite_string + my_string[len(overwrite_string):])
+    answer = ''.join(my_string[0:s] + overwrite_string + my_string[len(overwrite_string)+2:])
     return answer
 
 my_string_i, overwrite_string_i, s_i = map(str, input().strip().split(' '))
