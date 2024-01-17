@@ -8,8 +8,9 @@ def solution(str1, str2):
         answer = answer + str1[i] + str2[i]
     return answer
 
-stra, strb = map(str, input().strip().split(' '))
+# #testcase=======================================
+# stra, strb = map(str, input().strip().split(' '))
 
-print(solution(stra, strb))
-
+# print(solution(stra, strb))
+# #================================================
 #answer
