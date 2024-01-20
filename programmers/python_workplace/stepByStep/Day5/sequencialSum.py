@@ -2,9 +2,8 @@
 #solution
 def solution(a, d, included):
     sum = 0
-    for i in range(1,len(included)):
-        if(included[i-1]):
-            sum += a+(d*(i-1))
+    for i in range(len(included)):
+        if(included[i]): sum += a + d * i
     return sum
 
 #testcase==============================
@@ -15,3 +14,8 @@ print(solution(a,d,included))
 #======================================
 
 #answer1
+def solution(a, d, included):
+    answer = 0
+    for i in range(len(included)):
+        answer += (a + d * i) * int(included[i])
+    return answer
