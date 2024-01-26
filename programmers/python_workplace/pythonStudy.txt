@@ -1,4 +1,4 @@
-python 코드
+                     thflsms dkak dopython 코드
 
 a, b = map(int, input().strip().split(' '))
 print(a + b)
@@ -15,4 +15,3 @@ strings = list(str)
 
 str2 = '\n'.join(strings)
 print(str2)
-
